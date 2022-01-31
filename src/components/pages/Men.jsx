@@ -1,15 +1,12 @@
 import React from 'react';
 import Card from '../utility/Card';
+import {useContext} from 'react';
+import ProductContext from '../context/ProductContext'
 
 function Men() {
-  console.log(<Card />)
+  const { product } = useContext(ProductContext)
   return <div>
-    <Card 
-    img="https://picsum.photos/id/1005/400/250"
-    description='Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.'
-    newest={true}
-    title='Addidas Tshirt'
-    />
+    <Card />
   </div>;
 }
 

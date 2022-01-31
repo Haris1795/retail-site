@@ -5,7 +5,7 @@
             "title": "Men's Jeans",
             "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
             "price": 39.99,
-            "img": "../../assets/jeans1.webp"
+            "img": "/home/haris/web-projects/retail-site/src/assets/jeans1.webp"
         },
         {
             "id": 2,
