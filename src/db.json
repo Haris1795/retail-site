@@ -1,0 +1,36 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "title": "Men's Jeans",
+            "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+            "price": 39.99,
+            "img": "../../assets/jeans1.webp"
+        },
+        {
+            "id": 2,
+            "title": "Men's tshirt",
+            "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+            "price": 34.99
+        },
+        {
+            "id": 3,
+            "title": "Men's jeans",
+            "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+            "price": 59.99,
+            "img": "../../assets/jeans2.jpeg"
+        },
+        {
+            "id": 4,
+            "title": "Men's tshirt",
+            "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+            "price": 19.99
+        },
+        {
+            "id": 5,
+            "title": "Men's tshirt",
+            "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+            "price": 29.99
+        }
+    ]
+}
