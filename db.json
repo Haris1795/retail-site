@@ -1,36 +1,39 @@
 {
-  "product": [
-      {
-          "id": 1,
-          "title": "Men's Jeans",
-          "description": "reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
-          "price": 39.99,
-          "img": "../../assets/jeans1.webp"
-      },
-      {
-          "id": 2,
-          "title": "Men's tshirt",
-          "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
-          "price": 34.99
-      },
-      {
-          "id": 3,
-          "title": "Men's jeans",
-          "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
-          "price": 59.99,
-          "img": "../../assets/jeans2.jpeg"
-      },
-      {
-          "id": 4,
-          "title": "Men's tshirt",
-          "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
-          "price": 19.99
-      },
-      {
-          "id": 5,
-          "title": "Men's tshirt",
-          "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
-          "price": 29.99
-      }
-  ]
+    "product": [
+        {
+            "id": 1,
+            "title": "Men's Jeans",
+            "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+            "price": 39.99,
+            "img": "https://www.dhresource.com/webp/m/0x0/f2/albu/g9/M00/2F/6B/rBVaWFx34D2AKW4UAAZlxghYKik330.jpg/young-fashion-blue-korean-edition-youth-slim.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Men's tshirt",
+            "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+            "price": 34.99,
+            "img": "https://2.imimg.com/data2/IG/IH/MY-746692/t_shirts-500x500-500x500.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Men's jeans",
+            "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+            "price": 59.99,
+            "img": "https://5.imimg.com/data5/CD/KB/QE/SELLER-55531338/mens-jeans-designer-500x500.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Men's tshirt",
+            "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+            "price": 19.99,
+            "img": "https://5.imimg.com/data5/NJ/ET/MY-11249880/customized-screen-printed-v-neck-t-shirt-500x500.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Men's tshirt",
+            "description": "Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+            "price": 29.99,
+            "img": "https://5.imimg.com/data5/VI/VN/MY-27889386/mens-plain-t-shirt-500x500.jpg"
+        }
+    ]
 }

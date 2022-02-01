@@ -5,7 +5,7 @@ import ProductContext from '../context/ProductContext'
 
 function Men() {
   const { product } = useContext(ProductContext)
-  return <div>
+  return <div className='flex flex-direction-row flex-wrap justify-between mx-auto'>
     <Card />
   </div>;
 }
