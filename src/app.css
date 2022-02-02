@@ -12,3 +12,11 @@
     right: 25px;
     cursor: pointer;
 }
+
+body {
+    height:max-content;
+    background-image: url(./components/layout/assets/bckg.jpg);
+    background-attachment:fixed;
+    background-size: 6000px;
+    background-repeat: repeat;
+}

@@ -12,11 +12,11 @@ function Card() {
     )
   }
   return product.map((item) => (
-    <div className="card card-bordered w-64">
+    <div className=" flex card card-bordered w-64 my-6">
         <figure>
             <img src={item.img} alt='clothing'/>
         </figure> 
-    <div className="card-body ">
+    <div className="card-body bg-slate-100">
       <div className="flex flex-row items-center">
         <h3 className="card-title">{item.title}</h3>
             <div className="badge mx-2 badge-lg badge-secondary rounded-full w-16 h-16">

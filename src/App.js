@@ -12,12 +12,12 @@ import Women from './components/pages/Women';
 import Children from './components/pages/Children';
 import { ProductProvider } from './components/context/ProductContext';
 
-
 function App() {
+  const imageB = require('./components/layout/assets/bckg.jpg')
   return (
     <ProductProvider>
       <Router>
-        <div className='flex flex-col justify-between h-screen'>
+        <div className='flex flex-col justify-between' >
           <Navbar />
 
           <main className='container mx-auto px-3 pb-12'>
