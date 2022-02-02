@@ -3,20 +3,21 @@ import {useContext} from 'react';
 import ProductContext from '../context/ProductContext'
 import Spinner from '../layout/Spinner';
 
-function Card() {
+function Card(props) {
   const { product } = useContext(ProductContext)
-  console.log(product)
   if (!product){
     return (
       <Spinner />
     )
   }
-  return product.map((item) => (
-    <div className=" flex card card-bordered w-64 my-6">
+  const [ productSpec ] = product
+
+  return productSpec[props.text].map((item) => (
+    <div className=" flex card card-bordered w-64 my-6" key={item.id}>
         <figure>
             <img src={item.img} alt='clothing'/>
         </figure> 
-    <div className="card-body bg-slate-100">
+    <div className="card-body bg-slate-100" key={item.id}>
       <div className="flex flex-row items-center">
         <h3 className="card-title">{item.title}</h3>
             <div className="badge mx-2 badge-lg badge-secondary rounded-full w-16 h-16">

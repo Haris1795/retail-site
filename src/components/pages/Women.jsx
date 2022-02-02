@@ -1,7 +1,10 @@
 import React from 'react';
+import Card from '../utility/Card';
 
 function Women() {
-  return <div>This one is for women</div>;
+  return <div className='flex justify-evenly  flex-direction-row flex-wrap mx-auto '>
+    <Card text='women' />
+  </div>;
 }
 
 export default Women;

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types'
 import { FaLyft} from 'react-icons/fa';
@@ -20,7 +21,22 @@ function Navbar(title) {
       <div className="flex-2 px-2 mx-2">
         <div className="flex justify-end">
           <Link to='/checkout' className=''>
-            <FaShoppingCart className='inline pr-2 text-5xl'/>
+          <div className="dropdown dropdown-end">
+            <div tabIndex="0" className="btn btn-ghost rounded-btn">
+              <FaShoppingCart className='inline pr-2 text-5xl'/>
+            </div>
+            <ul tabIndex="0" className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-96">
+          <li>
+            <a>Item 1</a>
+          </li> 
+          <li>
+            <a>Item 2</a>
+          </li> 
+          <li>
+            <a>Item 3</a>
+          </li>
+        </ul>
+          </div>
           </Link>
         </div>
       </div>
