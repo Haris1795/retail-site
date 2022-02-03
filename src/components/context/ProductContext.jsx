@@ -4,7 +4,9 @@ const ProductContext = createContext();
 
 export const ProductProvider = ({children}) => {
     const [product, setProduct] = useState()
-
+    const [cartList, setCartList] = useState([{
+        item: {}
+    }])
 
     useEffect(()=> {
         fetchProducts()
@@ -17,8 +19,24 @@ export const ProductProvider = ({children}) => {
         setProduct(data)
     }
 
+    const addProduct = (item) => {
+        if(cartList.includes(item)){
+            console.log('null')
+            return null
+        } else {
+            setCartList([item, ...cartList])
+        }
+    }
+
+    const handleClick = (id) => {
+            setCartList(cartList.filter((item)=> item.id !== id))
+    }
+
     return <ProductContext.Provider value={{
         product,
+        cartList,
+        addProduct,
+        handleClick,
     }}>
         {children}
     </ProductContext.Provider>

@@ -4,12 +4,13 @@ import ProductContext from '../context/ProductContext'
 import Spinner from '../layout/Spinner';
 
 function Card(props) {
-  const { product } = useContext(ProductContext)
+  const { product, addProduct } = useContext(ProductContext)
   if (!product){
     return (
       <Spinner />
     )
   }
+
   const [ productSpec ] = product
 
   return productSpec[props.text].map((item) => (
@@ -28,7 +29,7 @@ function Card(props) {
       </div>
         <p>{item.description}</p> 
         <div className="flex flex-row card-actions">
-          <button className="btn btn-secondary shrink">Add to Shoping Cart</button>
+          <button onClick ={() => {addProduct(item)}}className="btn btn-secondary shrink">Add to Shoping Cart</button>
         </div>
     </div>
     </div> 

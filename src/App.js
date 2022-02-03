@@ -20,7 +20,7 @@ function App() {
         <div className='flex flex-col justify-between' >
           <Navbar />
 
-          <main className='container mx-auto px-3 pb-12'>
+          <main className='container h-auto m-auto px-5 pb-12'>
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />

@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types'
 import { FaLyft} from 'react-icons/fa';
 import {FaShoppingCart } from 'react-icons/fa'
+import Cart from '../utility/Cart'
+import CartIndicator from '../utility/CartIndicator'
 
 function Navbar(title) {
   return <nav className='navbar mb-12 shadow-lg bg-neutral text-neutral-content'>
@@ -18,26 +20,20 @@ function Navbar(title) {
           <Link to='/children' className='btn btn-ghost btn-sm rounded-btn'>Children</Link>
         </div>
       </div>
-      <div className="flex-2 px-2 mx-2">
-        <div className="flex justify-end">
-          <Link to='/checkout' className=''>
+      <div class="indicator">
+        <div class="indicator-item indicator-bottom indicator-end badge  badge-secondary mb-2 ">
+            <CartIndicator />
+          </div> 
+        <div class="grid w-34 h-34 place-items-center">
           <div className="dropdown dropdown-end">
-            <div tabIndex="0" className="btn btn-ghost rounded-btn">
-              <FaShoppingCart className='inline pr-2 text-5xl'/>
+            <div tabIndex="0" className="m-1 btn">
+                <FaShoppingCart className='inline pr-2 text-5xl'/>
+            </div> 
+            <ul tabIndex="0" className="p-2 shadow menu dropdown-content bg-base-200 rounded-box w-96 flex">
+                <Cart />
+                <button className="btn btn-md w-64 mx-auto bg-secondary hover:bg-sky-700">PROCEED TO CHECKOUT</button> 
+            </ul>
             </div>
-            <ul tabIndex="0" className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-96">
-          <li>
-            <a>Item 1</a>
-          </li> 
-          <li>
-            <a>Item 2</a>
-          </li> 
-          <li>
-            <a>Item 3</a>
-          </li>
-        </ul>
-          </div>
-          </Link>
         </div>
       </div>
     </div>
