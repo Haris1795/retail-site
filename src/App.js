@@ -13,7 +13,6 @@ import Children from './components/pages/Children';
 import { ProductProvider } from './components/context/ProductContext';
 
 function App() {
-  const imageB = require('./components/layout/assets/bckg.jpg')
   return (
     <ProductProvider>
       <Router>
