@@ -12,8 +12,14 @@ export const ProductProvider = ({children}) => {
         fetchProducts()
     }, [])
 
+
     const fetchProducts = async () => {
-        const response = await fetch('http://localhost:8008/product')
+        const response = await fetch('http://localhost:8008/product', {
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Content-Type': 'application/json',
+            }
+        })
         const data = await response.json()
         
         setProduct(data)
